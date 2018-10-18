@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: Helvetica;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -148,7 +148,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
+		font-family: "Helvetica", Helvetica, sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 2.375;
@@ -4651,3 +4651,12 @@ input, select, textarea {
 		}
 
 	}
+#blockright {
+    float: right;
+    width: 50%
+}
+#blockleft {
+    float: left;
+    width:50%
+}
+
